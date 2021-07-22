@@ -174,6 +174,27 @@ for(let num =0; num<10; num++){
 
 console.log(emptyArray);
 
+// Ojects:
+
+let student = {
+    frist: "philippine",
+    last: "Tembo", 
+    age:29, 
+    height: 165,
+    studdentInfo: function(){
+        return this.frist + '\n' + this.last
+    }
+}
+console.log(student)
+console.log(student.frist);
+student.frist= "notphilippine"
+console.log(student.frist)
+student.age++
+console.log( student.age)
+console.log(student.studdentInfo())
+
+
+
 
 
 
